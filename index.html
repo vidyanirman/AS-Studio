@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AS Digital Graphics is a creative studio by Amrit Singh offering custom banners, posters, social media templates, thumbnails, branding and video editing.">
+    <meta name="application-name" content="AS Digital Graphics">
+    <meta name="theme-color" content="#1746c8">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="AS Digital Graphics - Creative Editing & Design Studio">
+    <meta property="og:description" content="Creative digital graphics, banners, posters, thumbnails and video editing by AS Digital Graphics.">
+    <meta property="og:image" content="as-logo.svg">
+    <link rel="icon" type="image/svg+xml" href="as-logo.svg">
+    <link rel="shortcut icon" href="as-logo.svg">
+    <link rel="apple-touch-icon" href="as-logo.svg">
+    <title>AS Digital Graphics - Creative Editing & Design Studio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            500: '#2563eb',
+                            600: '#1d4ed8',
+                            700: '#1e40af',
+                            dark: '#0a192f',
+                            accent: '#4364F7'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+
+        /* Gradient backgrounds */
+        .gradient-blue {
+            background: linear-gradient(135deg, #0052D4 0%, #4364F7 50%, #6FB1FC 100%);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #0052D4 0%, #4364F7 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+        }
+        .glass-card-dark {
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #4364F7;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #0052D4;
+        }
+    </style>
+
+    <style id="professional-creative-upgrade">
+      :root{--ink:#101b34;--blue:#2563eb;--cyan:#38bdf8;--line:rgba(148,163,184,.22)}
+      html{scroll-padding-top:88px}
+      body{background:#f7f9fd;color:var(--ink);font-family:'Poppins',sans-serif}
+      ::selection{background:#2563eb;color:#fff}
+      a,button,input,select,textarea{-webkit-tap-highlight-color:transparent}
+      a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #60a5fa;outline-offset:3px}
+      header{box-shadow:0 8px 28px rgba(15,23,42,.055)!important}
+      header .gradient-blue{border-radius:14px;box-shadow:0 10px 25px rgba(37,99,235,.28)}
+      .gradient-blue{background:linear-gradient(125deg,#1746c8 0%,#3676f6 52%,#25b8d7 100%)}
+      .gradient-text{background:linear-gradient(110deg,#1746c8 5%,#3676f6 48%,#0891b2 100%);background-clip:text;-webkit-background-clip:text}
+      #home{background:radial-gradient(ellipse at 80% 18%,rgba(56,189,248,.16),transparent 35%),radial-gradient(ellipse at 10% 60%,rgba(37,99,235,.09),transparent 38%),linear-gradient(180deg,#f8fbff,#fff 70%,#f7faff)}
+      #home h1{letter-spacing:-.045em}
+      #home .inline-flex{box-shadow:0 5px 20px rgba(37,99,235,.07)}
+      #home .relative.mx-auto{box-shadow:0 28px 75px rgba(15,23,42,.16);border-radius:28px}
+      section[id]{scroll-margin-top:88px}
+      #about,#gallery{background:linear-gradient(180deg,#fff 0%,#fbfdff 100%)}
+      #services{background:linear-gradient(180deg,#f6f9ff 0%,#f8fafc 100%)}
+      #about .glass-card{border-radius:24px;background:rgba(255,255,255,.92);box-shadow:0 14px 40px rgba(15,23,42,.06)}
+      #services .grid>div{border-radius:22px;box-shadow:0 5px 20px rgba(15,23,42,.035);transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+      #services .grid>div:hover{transform:translateY(-7px);box-shadow:0 20px 45px rgba(37,99,235,.12);border-color:rgba(59,130,246,.35)}
+      #services .grid>div button{border:1px solid #e5eaf3}
+      #gallery .gallery-item{border:1px solid rgba(148,163,184,.2);box-shadow:0 10px 30px rgba(15,23,42,.08);transition:transform .25s ease,box-shadow .25s ease}
+      #gallery .gallery-item:hover{transform:translateY(-4px);box-shadow:0 20px 45px rgba(15,23,42,.17)}
+      .gallery-tab-btn{border:1px solid transparent}
+      .gallery-tab-btn.active-tab{background:linear-gradient(120deg,#1d4ed8,#0ea5e9)!important;box-shadow:0 8px 20px rgba(37,99,235,.22)}
+      #booking{background:radial-gradient(ellipse at 10% 10%,rgba(37,99,235,.32),transparent 35%),radial-gradient(ellipse at 90% 90%,rgba(8,145,178,.18),transparent 35%),linear-gradient(135deg,#071326,#10264b 55%,#071326)}
+      #booking form input,#booking form select,#booking form textarea{border-radius:12px;transition:border-color .2s,box-shadow .2s}
+      #booking form input:focus,#booking form select:focus,#booking form textarea:focus{border-color:#3b82f6;box-shadow:0 0 0 4px rgba(59,130,246,.12)}
+      #booking form button{min-height:50px}
+      footer{background:linear-gradient(145deg,#060d1a,#0b1730)!important}
+      .glass-card{box-shadow:0 12px 32px rgba(15,23,42,.08)}
+      .reveal-ready{opacity:0;transform:translateY(18px);transition:opacity .65s ease,transform .65s ease}
+      .reveal-ready.is-visible{opacity:1;transform:translateY(0)}
+      #toast-container>div{box-shadow:0 15px 45px rgba(2,6,23,.24)}
+      @media(max-width:640px){
+        #home{padding-top:2.5rem;padding-bottom:4rem}
+        #home h1{font-size:clamp(2.25rem,10vw,3.3rem);line-height:1.08}
+        #home .relative.mx-auto{margin:1.25rem .35rem 1.75rem}
+        #home .absolute.-bottom-6.-left-6{left:-.25rem;bottom:-1.2rem}
+        #home .absolute.-top-6.-right-6{right:-.25rem;top:-1.2rem}
+        #booking .rounded-3xl{padding:1.2rem}
+        #about .glass-card{padding:1.25rem}
+        #about .flex.flex-col.sm\:flex-row{gap:1rem}
+        #about .flex.flex-col.sm\:flex-row>div{text-align:center}
+        #about h3{font-size:1.25rem}
+      }
+      @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+    </style>
+
+</head>
+<body class="overflow-x-hidden antialiased">
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="fixed bottom-5 right-5 z-50 flex flex-col gap-3 pointer-events-none"></div>
+
+    <!-- Navigation Bar -->
+    <header class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-slate-100 shadow-sm transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Brand Logo -->
+                <a href="#home" class="flex items-center gap-3 group">
+                    <div class="w-11 h-11 rounded-xl gradient-blue flex items-center justify-center text-white font-extrabold text-xl shadow-lg shadow-blue-500/30 group-hover:scale-105 transition-transform duration-300">
+                        AS
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-bold text-xl tracking-tight text-slate-800 leading-tight">AS DIGITAL</span>
+                        <span class="text-xs font-medium tracking-widest text-blue-600 uppercase">Graphics Studio</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Nav Links -->
+                <nav class="hidden md:flex items-center space-x-8 font-medium text-slate-600 text-sm">
+                    <a href="#home" class="hover:text-blue-600 transition-colors">Home</a>
+                    <a href="#about" class="hover:text-blue-600 transition-colors">About Us</a>
+                    <a href="#services" class="hover:text-blue-600 transition-colors">Services</a>
+                    <a href="#gallery" class="hover:text-blue-600 transition-colors">Gallery</a>
+                    <a href="#booking" class="hover:text-blue-600 transition-colors">Order & Booking</a>
+                    <a href="#contact" class="hover:text-blue-600 transition-colors">Contact</a>
+                </nav>
+
+                <!-- Header CTA Button -->
+                <div class="hidden sm:flex items-center gap-3">
+                    <a href="tel:9277138739" class="p-2.5 rounded-lg bg-blue-50 text-blue-600 hover:bg-blue-100 transition-colors" title="Call Us">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="#booking" class="px-5 py-2.5 rounded-xl gradient-blue text-white font-semibold shadow-md hover:shadow-lg hover:shadow-blue-500/30 hover:-translate-y-0.5 transition-all duration-200 text-sm">
+                        <i class="fas fa-paper-plane mr-2"></i> Book Order
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Toggle Button -->
+                <button id="mobile-menu-btn" class="md:hidden text-slate-700 hover:text-blue-600 p-2 focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-100 px-4 pt-2 pb-6 space-y-3">
+            <a href="#home" class="block py-2 text-slate-700 font-medium hover:text-blue-600 border-b border-slate-50">Home</a>
+            <a href="#about" class="block py-2 text-slate-700 font-medium hover:text-blue-600 border-b border-slate-50">About Us</a>
+            <a href="#services" class="block py-2 text-slate-700 font-medium hover:text-blue-600 border-b border-slate-50">Services</a>
+            <a href="#gallery" class="block py-2 text-slate-700 font-medium hover:text-blue-600 border-b border-slate-50">Gallery</a>
+            <a href="#booking" class="block py-2 text-slate-700 font-medium hover:text-blue-600 border-b border-slate-50">Order & Booking</a>
+            <a href="#contact" class="block py-2 text-slate-700 font-medium hover:text-blue-600">Contact</a>
+            <div class="pt-2 flex flex-col gap-2">
+                <a href="#booking" class="w-full text-center py-2.5 rounded-xl gradient-blue text-white font-semibold shadow">
+                    Book Order Now
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative pt-12 pb-20 lg:pt-20 lg:pb-32 overflow-hidden bg-gradient-to-b from-blue-50/60 via-white to-slate-50">
+        <!-- Abstract Background Blobs -->
+        <div class="absolute top-10 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-blue-300/20 rounded-full blur-3xl -z-10"></div>
+        <div class="absolute -top-10 right-0 w-80 h-80 bg-blue-500/10 rounded-full blur-2xl -z-10"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Content -->
+                <div class="lg:col-span-7 space-y-8 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100/80 border border-blue-200 text-blue-700 text-xs sm:text-sm font-semibold tracking-wide">
+                        <span class="w-2 h-2 rounded-full bg-blue-600 animate-pulse"></span>
+                        Creative Digital Graphics & Media Studio
+                    </div>
+                    
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.15]">
+                        Transforming Ideas into <span class="gradient-text">Stunning Digital</span> Reality
+                    </h1>
+                    
+                    <p class="text-slate-600 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+                        Welcome to <strong class="text-slate-800">AS Digital Graphics</strong>. We craft eye-catching custom Banners, Posters, Social Media Templates, Thumbnails, and high-impact Video Editing tailored to elevate your personal or business brand.
+                    </p>
+
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                        <a href="#booking" class="w-full sm:w-auto px-8 py-4 rounded-xl gradient-blue text-white font-semibold text-center shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 hover:-translate-y-1 transition-all duration-300">
+                            <i class="fas fa-shopping-cart mr-2"></i> Place an Order
+                        </a>
+                        <a href="#gallery" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-white text-slate-700 font-semibold text-center border border-slate-200 shadow-sm hover:bg-slate-50 hover:border-slate-300 transition-all duration-200">
+                            <i class="fas fa-layer-group mr-2 text-blue-600"></i> View Work Gallery
+                        </a>
+                    </div>
+
+                    <!-- Direct Contact Quick Pill -->
+                    <div class="pt-4 flex flex-wrap items-center justify-center lg:justify-start gap-6 text-sm text-slate-600 border-t border-slate-200/80">
+                        <a href="tel:9277138739" class="flex items-center gap-2 hover:text-blue-600 transition-colors">
+                            <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 text-xs">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <span class="font-medium">+91 9277138739</span>
+                        </a>
+                        <a href="mailto:asdigitalgraphics6@gmail.com" class="flex items-center gap-2 hover:text-blue-600 transition-colors">
+                            <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 text-xs">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <span class="font-medium">asdigitalgraphics6@gmail.com</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Visual Showcase -->
+                <div class="lg:col-span-5 relative">
+                    <!-- Main Card -->
+                    <div class="relative mx-auto max-w-md lg:max-w-none rounded-3xl bg-white p-4 shadow-2xl border border-slate-100 transform lg:rotate-1 hover:rotate-0 transition-transform duration-500">
+                        <div class="relative overflow-hidden rounded-2xl bg-slate-900 aspect-[4/3] flex items-center justify-center group">
+                            <!-- Background Mock Image -->
+                            <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=800&q=80" alt="Graphics Showcase" class="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-700">
+                            
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
+
+                            <div class="absolute bottom-5 left-5 right-5 text-white space-y-2">
+                                <span class="inline-block px-2.5 py-1 rounded bg-blue-600 text-[10px] font-bold uppercase tracking-wider">Premium Quality</span>
+                                <h3 class="text-lg font-bold">Creative Digital Branding</h3>
+                                <p class="text-xs text-slate-300">Custom Banners, High-converting Templates & Visual Designs</p>
+                            </div>
+
+                            <div class="absolute top-4 right-4 w-10 h-10 rounded-full glass-card flex items-center justify-center text-white text-sm shadow">
+                                <i class="fas fa-crown text-amber-400"></i>
+                            </div>
+                        </div>
+
+                        <!-- Floating Badge 1 -->
+                        <div class="absolute -bottom-6 -left-6 glass-card p-4 rounded-2xl shadow-xl flex items-center gap-3 border border-white">
+                            <div class="w-12 h-12 rounded-xl gradient-blue flex items-center justify-center text-white text-xl">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs font-bold text-slate-500 uppercase">Satisfied Clients</p>
+                                <p class="text-lg font-extrabold text-slate-800">500+ Projects</p>
+                            </div>
+                        </div>
+
+                        <!-- Floating Badge 2 -->
+                        <div class="absolute -top-6 -right-6 glass-card p-3 rounded-2xl shadow-xl flex items-center gap-2 border border-white">
+                            <div class="flex -space-x-2">
+                                <div class="w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-xs flex items-center justify-center border-2 border-white">AS</div>
+                                <div class="w-8 h-8 rounded-full bg-indigo-600 text-white font-bold text-xs flex items-center justify-center border-2 border-white">AB</div>
+                            </div>
+                            <span class="text-xs font-bold text-slate-700 pl-1">Founder Led</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Banner -->
+    <section class="bg-blue-600 text-white py-10 shadow-inner">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="text-3xl sm:text-4xl font-extrabold mb-1">100%</div>
+                    <div class="text-blue-100 text-xs sm:text-sm font-medium">Custom Designs</div>
+                </div>
+                <div>
+                    <div class="text-3xl sm:text-4xl font-extrabold mb-1">24-48h</div>
+                    <div class="text-blue-100 text-xs sm:text-sm font-medium">Fast Turnaround</div>
+                </div>
+                <div>
+                    <div class="text-3xl sm:text-4xl font-extrabold mb-1">5.0 ★</div>
+                    <div class="text-blue-100 text-xs sm:text-sm font-medium">Client Rating</div>
+                </div>
+                <div>
+                    <div class="text-3xl sm:text-4xl font-extrabold mb-1">Direct</div>
+                    <div class="text-blue-100 text-xs sm:text-sm font-medium">Founder Support</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-extrabold text-blue-600 uppercase tracking-wider mb-2">Who We Are</h2>
+                <p class="text-3xl sm:text-4xl font-extrabold text-slate-900">Crafting Visual Excellence at AS Digital Graphics</p>
+                <div class="w-16 h-1 gradient-blue mx-auto mt-4 rounded-full"></div>
+                <p class="text-slate-600 mt-4 text-sm sm:text-base">
+                    At <strong>AS Digital Graphics</strong>, we specialize in high-impact graphic design, social media marketing templates, digital graphics, and video editing. Our focus is to deliver custom, trend-setting visual media that gives your personal brand or business an outstanding market identity.
+                </p>
+            </div>
+
+            <!-- Leadership Team Spotlight -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                
+                <!-- Founder Card -->
+                <div class="glass-card rounded-2xl p-8 border border-slate-200 shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-bl-full -z-10 group-hover:scale-110 transition-transform"></div>
+                    <div class="flex flex-col sm:flex-row items-center sm:items-center gap-5 sm:gap-6">
+                        <img src="amrit-singh.jpg" alt="Amrit Singh — Founder" loading="lazy" class="w-28 h-28 sm:w-32 sm:h-32 rounded-full object-cover object-center ring-4 ring-blue-100 shadow-xl shadow-blue-500/30 shrink-0 transition-transform duration-300 group-hover:scale-105" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div style="display:none" class="w-28 h-28 sm:w-32 sm:h-32 rounded-full gradient-blue text-white font-extrabold text-3xl items-center justify-center shadow-xl shadow-blue-500/30 shrink-0">AS</div>
+                        <div>
+                            <span class="inline-block px-3 py-1 rounded-full bg-blue-100 text-blue-700 text-xs font-bold mb-1">FOUNDER</span>
+                            <h3 class="text-2xl font-bold text-slate-900">Amrit Singh</h3>
+                            <p class="text-slate-500 text-sm font-medium">Lead Creative Director & Graphics Strategist</p>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 text-sm mt-6 leading-relaxed">
+                        Amrit leads creative direction and brand strategy at AS Digital Graphics, ensuring every poster, banner, and template adheres to world-class design standards.
+                    </p>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+                        <span><i class="fas fa-palette text-blue-600 mr-1.5"></i> Custom Visuals</span>
+                        <a href="#contact" class="text-blue-600 font-semibold hover:underline">Contact Founder →</a>
+                    </div>
+                </div>
+
+                <!-- Co-Founder Card -->
+                <div class="glass-card rounded-2xl p-8 border border-slate-200 shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-indigo-500/10 rounded-bl-full -z-10 group-hover:scale-110 transition-transform"></div>
+                    <div class="flex flex-col sm:flex-row items-center sm:items-center gap-5 sm:gap-6">
+                        <img src="ayush-bhardwaj.jpg" alt="Ayush Bhardwaj — Co-Founder" loading="lazy" class="w-28 h-28 sm:w-32 sm:h-32 rounded-full object-cover object-center ring-4 ring-indigo-100 shadow-xl shadow-indigo-500/30 shrink-0 transition-transform duration-300 group-hover:scale-105" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div style="display:none" class="w-28 h-28 sm:w-32 sm:h-32 rounded-full bg-gradient-to-br from-indigo-600 to-blue-600 text-white font-extrabold text-3xl items-center justify-center shadow-xl shadow-indigo-500/30 shrink-0">AB</div>
+                        <div>
+                            <span class="inline-block px-3 py-1 rounded-full bg-indigo-100 text-indigo-700 text-xs font-bold mb-1">CO-FOUNDER</span>
+                            <h3 class="text-2xl font-bold text-slate-900">Ayush Bhardwaj</h3>
+                            <p class="text-slate-500 text-sm font-medium">Operations & Digital Media Head</p>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 text-sm mt-6 leading-relaxed">
+                        Ayush oversees operations, digital media production, and client workflow, ensuring lightning-fast delivery and flawless execution on all studio bookings.
+                    </p>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+                        <span><i class="fas fa-rocket text-indigo-600 mr-1.5"></i> Client Operations</span>
+                        <a href="#contact" class="text-indigo-600 font-semibold hover:underline">Contact Co-Founder →</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-extrabold text-blue-600 uppercase tracking-wider mb-2">Our Capabilities</h2>
+                <p class="text-3xl sm:text-4xl font-extrabold text-slate-900">Creative Digital Services We Offer</p>
+                <div class="w-16 h-1 gradient-blue mx-auto mt-4 rounded-full"></div>
+                <p class="text-slate-600 mt-4 text-sm sm:text-base">
+                    From eye-catching posters to high-converting social media templates, we craft everything with pixel perfection.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Service 1 -->
+                <div class="bg-white rounded-2xl p-8 border border-slate-200/80 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center text-2xl mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Banner & Flex Design</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                            High-resolution advertising banners, website hero banners, print flex boards, and event display headers.
+                        </p>
+                    </div>
+                    <button onclick="quickSelectService('Banner Design')" class="w-full py-2.5 rounded-xl bg-slate-100 text-slate-700 font-semibold text-xs hover:bg-blue-600 hover:text-white transition-colors text-center">
+                        Order Banner Design <i class="fas fa-arrow-right ml-1"></i>
+                    </button>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-white rounded-2xl p-8 border border-slate-200/80 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center text-2xl mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                            <i class="fas fa-file-powerpoint"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Poster & Flyer Design</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                            Promotional event posters, business flyers, concert posters, and social campaign announcements.
+                        </p>
+                    </div>
+                    <button onclick="quickSelectService('Poster Design')" class="w-full py-2.5 rounded-xl bg-slate-100 text-slate-700 font-semibold text-xs hover:bg-blue-600 hover:text-white transition-colors text-center">
+                        Order Poster Design <i class="fas fa-arrow-right ml-1"></i>
+                    </button>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-white rounded-2xl p-8 border border-slate-200/80 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center text-2xl mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Custom Templates</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                            Editable social media templates, Instagram posts & stories, branding kits, and business cards.
+                        </p>
+                    </div>
+                    <button onclick="quickSelectService('Template Design')" class="w-full py-2.5 rounded-xl bg-slate-100 text-slate-700 font-semibold text-xs hover:bg-blue-600 hover:text-white transition-colors text-center">
+                        Order Templates <i class="fas fa-arrow-right ml-1"></i>
+                    </button>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="bg-white rounded-2xl p-8 border border-slate-200/80 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center text-2xl mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">YouTube Thumbnails</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                            High CTR YouTube thumbnails designed to boost views and viewer engagement across videos.
+                        </p>
+                    </div>
+                    <button onclick="quickSelectService('Thumbnail Design')" class="w-full py-2.5 rounded-xl bg-slate-100 text-slate-700 font-semibold text-xs hover:bg-blue-600 hover:text-white transition-colors text-center">
+                        Order Thumbnail <i class="fas fa-arrow-right ml-1"></i>
+                    </button>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="bg-white rounded-2xl p-8 border border-slate-200/80 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center text-2xl mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                            <i class="fas fa-film"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Video Editing & Reels</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                            Professional video editing, motion graphics, Instagram Reels, Shorts, and video ads.
+                        </p>
+                    </div>
+                    <button onclick="quickSelectService('Video Editing')" class="w-full py-2.5 rounded-xl bg-slate-100 text-slate-700 font-semibold text-xs hover:bg-blue-600 hover:text-white transition-colors text-center">
+                        Order Video Editing <i class="fas fa-arrow-right ml-1"></i>
+                    </button>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="bg-white rounded-2xl p-8 border border-slate-200/80 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center text-2xl mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Digital Media Branding</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                            Complete brand identity packages, logo vectors, custom graphics, and social media creative sets.
+                        </p>
+                    </div>
+                    <button onclick="quickSelectService('Digital Media Graphics')" class="w-full py-2.5 rounded-xl bg-slate-100 text-slate-700 font-semibold text-xs hover:bg-blue-600 hover:text-white transition-colors text-center">
+                        Order Branding Pack <i class="fas fa-arrow-right ml-1"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Portfolio Section -->
+    <section id="gallery" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <h2 class="text-xs font-extrabold text-blue-600 uppercase tracking-wider mb-2">Our Portfolio</h2>
+                <p class="text-3xl sm:text-4xl font-extrabold text-slate-900">Digital Media & Graphics Showcase</p>
+                <div class="w-16 h-1 gradient-blue mx-auto mt-4 rounded-full"></div>
+                <p class="text-slate-600 mt-4 text-sm sm:text-base">
+                    Explore a sample of creative graphic designs produced by AS Digital Graphics.
+                </p>
+            </div>
+
+            <!-- Filter Tabs -->
+            <div class="flex flex-wrap items-center justify-center gap-2 mb-10">
+                <button onclick="filterGallery('all')" class="gallery-tab-btn active-tab px-5 py-2 rounded-full text-xs font-semibold transition-all duration-200 bg-blue-600 text-white shadow-md">All Works</button>
+                <button onclick="filterGallery('banners')" class="gallery-tab-btn px-5 py-2 rounded-full text-xs font-semibold transition-all duration-200 bg-slate-100 text-slate-600 hover:bg-slate-200">Banners</button>
+                <button onclick="filterGallery('posters')" class="gallery-tab-btn px-5 py-2 rounded-full text-xs font-semibold transition-all duration-200 bg-slate-100 text-slate-600 hover:bg-slate-200">Posters</button>
+                <button onclick="filterGallery('templates')" class="gallery-tab-btn px-5 py-2 rounded-full text-xs font-semibold transition-all duration-200 bg-slate-100 text-slate-600 hover:bg-slate-200">Templates</button>
+                <button onclick="filterGallery('media')" class="gallery-tab-btn px-5 py-2 rounded-full text-xs font-semibold transition-all duration-200 bg-slate-100 text-slate-600 hover:bg-slate-200">Digital Media</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div id="gallery-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- Item 1: Banner -->
+                <div class="gallery-item banners group relative overflow-hidden rounded-2xl bg-slate-900 shadow-md aspect-[4/3] cursor-pointer" onclick="openLightbox('https://images.unsplash.com/photo-1542744094-3a31216914fc?auto=format&fit=crop&w=1200&q=80', 'Corporate Promotional Banner')">
+                    <img src="https://images.unsplash.com/photo-1542744094-3a31216914fc?auto=format&fit=crop&w=800&q=80" alt="Banner Design" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-90">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+                        <span class="text-xs text-blue-400 font-semibold uppercase tracking-wider">Banner Design</span>
+                        <h4 class="text-lg font-bold">Corporate Business Banner</h4>
+                        <p class="text-xs text-slate-300 mt-1">Click to view full preview</p>
+                    </div>
+                </div>
+
+                <!-- Item 2: Poster -->
+                <div class="gallery-item posters group relative overflow-hidden rounded-2xl bg-slate-900 shadow-md aspect-[4/3] cursor-pointer" onclick="openLightbox('https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=1200&q=80', 'Music Event Poster')">
+                    <img src="https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80" alt="Poster Design" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-90">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+                        <span class="text-xs text-blue-400 font-semibold uppercase tracking-wider">Poster Design</span>
+                        <h4 class="text-lg font-bold">Creative Event Poster</h4>
+                        <p class="text-xs text-slate-300 mt-1">Click to view full preview</p>
+                    </div>
+                </div>
+
+                <!-- Item 3: Template -->
+                <div class="gallery-item templates group relative overflow-hidden rounded-2xl bg-slate-900 shadow-md aspect-[4/3] cursor-pointer" onclick="openLightbox('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80', 'Modern Social Media Template Pack')">
+                    <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80" alt="Template Design" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-90">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+                        <span class="text-xs text-blue-400 font-semibold uppercase tracking-wider">Template</span>
+                        <h4 class="text-lg font-bold">Instagram Post Templates</h4>
+                        <p class="text-xs text-slate-300 mt-1">Click to view full preview</p>
+                    </div>
+                </div>
+
+                <!-- Item 4: Digital Media -->
+                <div class="gallery-item media group relative overflow-hidden rounded-2xl bg-slate-900 shadow-md aspect-[4/3] cursor-pointer" onclick="openLightbox('https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80', 'Cyberpunk Digital Media Graphics')">
+                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80" alt="Digital Media" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-90">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+                        <span class="text-xs text-blue-400 font-semibold uppercase tracking-wider">Digital Media</span>
+                        <h4 class="text-lg font-bold">Gaming & Tech Branding</h4>
+                        <p class="text-xs text-slate-300 mt-1">Click to view full preview</p>
+                    </div>
+                </div>
+
+                <!-- Item 5: Banner -->
+                <div class="gallery-item banners group relative overflow-hidden rounded-2xl bg-slate-900 shadow-md aspect-[4/3] cursor-pointer" onclick="openLightbox('https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80', 'Marketing Agency Web Header Banner')">
+                    <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80" alt="Banner Design" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-90">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+                        <span class="text-xs text-blue-400 font-semibold uppercase tracking-wider">Banner Design</span>
+                        <h4 class="text-lg font-bold">Marketing Agency Banner</h4>
+                        <p class="text-xs text-slate-300 mt-1">Click to view full preview</p>
+                    </div>
+                </div>
+
+                <!-- Item 6: Poster -->
+                <div class="gallery-item posters group relative overflow-hidden rounded-2xl bg-slate-900 shadow-md aspect-[4/3] cursor-pointer" onclick="openLightbox('https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1200&q=80', 'Art Exhibition Poster')">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=800&q=80" alt="Poster Design" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-90">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+                        <span class="text-xs text-blue-400 font-semibold uppercase tracking-wider">Poster Design</span>
+                        <h4 class="text-lg font-bold">Minimalist Graphic Poster</h4>
+                        <p class="text-xs text-slate-300 mt-1">Click to view full preview</p>
+                    </div>
+                </div>
+
+                <!-- Item 7: Brand Identity -->
+                <div class="gallery-item media group relative overflow-hidden rounded-2xl bg-slate-900 shadow-md aspect-[4/3] cursor-pointer" onclick="openLightbox('https://images.unsplash.com/photo-1634942536790-253b8e7b2f9d?auto=format&fit=crop&w=1200&q=80', 'Brand Identity Design')">
+                    <img src="https://images.unsplash.com/photo-1634942536790-253b8e7b2f9d?auto=format&fit=crop&w=800&q=80" alt="Brand identity and visual design" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-90">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+                        <span class="text-xs text-blue-400 font-semibold uppercase tracking-wider">Digital Media</span>
+                        <h4 class="text-lg font-bold">Brand Identity Concept</h4>
+                        <p class="text-xs text-slate-300 mt-1">Click to view full preview</p>
+                    </div>
+                </div>
+
+                <!-- Item 8: Creative Workspace -->
+                <div class="gallery-item templates group relative overflow-hidden rounded-2xl bg-slate-900 shadow-md aspect-[4/3] cursor-pointer" onclick="openLightbox('https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1200&q=80', 'Creative Design Workspace')">
+                    <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=800&q=80" alt="Creative graphic design workspace" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-90">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+                        <span class="text-xs text-blue-400 font-semibold uppercase tracking-wider">Templates</span>
+                        <h4 class="text-lg font-bold">Creative Design Collection</h4>
+                        <p class="text-xs text-slate-300 mt-1">Click to view full preview</p>
+                    </div>
+                </div>
+
+                <!-- Item 9: Abstract Artwork -->
+                <div class="gallery-item media group relative overflow-hidden rounded-2xl bg-slate-900 shadow-md aspect-[4/3] cursor-pointer" onclick="openLightbox('https://images.unsplash.com/photo-1618172193763-c511a9b3c6b7?auto=format&fit=crop&w=1200&q=80', 'Abstract Digital Artwork')">
+                    <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80" alt="Abstract digital artwork" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-90">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+                        <span class="text-xs text-blue-400 font-semibold uppercase tracking-wider">Digital Media</span>
+                        <h4 class="text-lg font-bold">Abstract Digital Artwork</h4>
+                        <p class="text-xs text-slate-300 mt-1">Click to view full preview</p>
+                    </div>
+                </div>
+
+                <!-- Item 10: Business Promotion -->
+                <div class="gallery-item banners group relative overflow-hidden rounded-2xl bg-slate-900 shadow-md aspect-[4/3] cursor-pointer" onclick="openLightbox('https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=80', 'Business Promotion Visual')">
+                    <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=800&q=80" alt="Business promotion visual" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-90">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+                        <span class="text-xs text-blue-400 font-semibold uppercase tracking-wider">Banner Design</span>
+                        <h4 class="text-lg font-bold">Business Promotion Visual</h4>
+                        <p class="text-xs text-slate-300 mt-1">Click to view full preview</p>
+                    </div>
+                </div>
+
+                <!-- Item 11: Social Campaign -->
+                <div class="gallery-item posters group relative overflow-hidden rounded-2xl bg-slate-900 shadow-md aspect-[4/3] cursor-pointer" onclick="openLightbox('https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=1200&q=80', 'Social Campaign Artwork')">
+                    <img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=800&q=80" alt="Social campaign artwork" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-90">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+                        <span class="text-xs text-blue-400 font-semibold uppercase tracking-wider">Poster Design</span>
+                        <h4 class="text-lg font-bold">Social Campaign Artwork</h4>
+                        <p class="text-xs text-slate-300 mt-1">Click to view full preview</p>
+                    </div>
+                </div>
+
+                <!-- Item 12: Video and Motion -->
+                <div class="gallery-item templates group relative overflow-hidden rounded-2xl bg-slate-900 shadow-md aspect-[4/3] cursor-pointer" onclick="openLightbox('https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&w=1200&q=80', 'Video and Motion Graphics')">
+                    <img src="https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&w=800&q=80" alt="Video and motion graphics setup" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-90">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+                        <span class="text-xs text-blue-400 font-semibold uppercase tracking-wider">Templates</span>
+                        <h4 class="text-lg font-bold">Video & Motion Graphics</h4>
+                        <p class="text-xs text-slate-300 mt-1">Click to view full preview</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Order & Booking Form Section -->
+    <section id="booking" class="py-20 bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 text-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+                
+                <!-- Info Column -->
+                <div class="lg:col-span-5 space-y-6">
+                    <span class="px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 border border-blue-400/30 text-xs font-semibold">
+                        Fast Booking & Quotation
+                    </span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Place Your Order With AS Digital Graphics</h2>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        Ready to start your design project? Fill out the details below to submit your order request directly to Founder <strong>Amrit Singh</strong> & Co-Founder <strong>Ayush Bhardwaj</strong>.
+                    </p>
+
+                    <div class="space-y-4 pt-4">
+                        <div class="flex items-start gap-4 p-4 rounded-xl glass-card-dark border border-slate-800">
+                            <div class="w-10 h-10 rounded-lg bg-blue-600/30 text-blue-400 flex items-center justify-center text-lg shrink-0">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-sm text-white">Direct Whatsapp & Call Support</h4>
+                                <p class="text-xs text-slate-400 mt-0.5">Quick consultation directly with founders.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-4 rounded-xl glass-card-dark border border-slate-800">
+                            <div class="w-10 h-10 rounded-lg bg-blue-600/30 text-blue-400 flex items-center justify-center text-lg shrink-0">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-sm text-white">100% Satisfaction Guarantee</h4>
+                                <p class="text-xs text-slate-400 mt-0.5">Revisions included until you love the final output.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Direct Founder Phone Call Box -->
+                    <div class="p-6 rounded-2xl gradient-blue text-white shadow-xl flex items-center justify-between">
+                        <div>
+                            <p class="text-xs uppercase font-bold text-blue-100">Need Urgent Assistance?</p>
+                            <p class="text-xl font-extrabold mt-0.5">+91 9277138739</p>
+                        </div>
+                        <a href="tel:9277138739" class="w-12 h-12 rounded-full bg-white text-blue-600 flex items-center justify-center text-xl shadow hover:scale-105 transition-transform">
+                            <i class="fas fa-phone-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Form Column -->
+                <div class="lg:col-span-7 bg-white text-slate-900 rounded-3xl p-6 sm:p-10 shadow-2xl border border-slate-100">
+                    <h3 class="text-2xl font-bold mb-6 text-slate-900 border-b border-slate-100 pb-4">Order Details Form</h3>
+                    
+                    <form id="order-form" onsubmit="handleOrderSubmit(event)" class="space-y-5">
+                        
+                        <!-- Name & Phone Row -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Your Full Name *</label>
+                                <input type="text" id="cust-name" required placeholder="e.g. John Doe" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 outline-none text-sm transition-all">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Phone / WhatsApp Number *</label>
+                                <input type="tel" id="cust-phone" required placeholder="e.g. 9277138739" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 outline-none text-sm transition-all">
+                            </div>
+                        </div>
+
+                        <!-- Email & Service Needed Row -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Your Email Address</label>
+                                <input type="email" id="cust-email" placeholder="e.g. name@example.com" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 outline-none text-sm transition-all">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Service Needed *</label>
+                                <select id="cust-service" required class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 outline-none text-sm transition-all bg-white">
+                                    <option value="">-- Select Service --</option>
+                                    <option value="Poster Design">Poster Design</option>
+                                    <option value="Banner / Flex Design">Banner / Flex Design</option>
+                                    <option value="Social Media Template">Social Media Template</option>
+                                    <option value="YouTube Thumbnail">YouTube Thumbnail</option>
+                                    <option value="Video Editing / Reels">Video Editing / Reels</option>
+                                    <option value="Digital Media Branding">Digital Media Branding</option>
+                                    <option value="Other Custom Graphics">Other Custom Graphics</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Timeline & Preferred Contact -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Project Deadline</label>
+                                <select id="cust-deadline" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 outline-none text-sm transition-all bg-white">
+                                    <option value="Urgent (Within 24 Hours)">Urgent (Within 24 Hours)</option>
+                                    <option value="2-3 Days" selected>Standard (2-3 Days)</option>
+                                    <option value="1 Week">Flexible (1 Week)</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Preferred Mode of Contact</label>
+                                <select id="cust-contact-pref" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 outline-none text-sm transition-all bg-white">
+                                    <option value="WhatsApp Direct">WhatsApp Direct</option>
+                                    <option value="Phone Call">Phone Call</option>
+                                    <option value="Email Reply">Email Reply</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Project Brief Description -->
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Project Brief / Design Instructions *</label>
+                            <textarea id="cust-brief" rows="4" required placeholder="Describe your title, colors, dimensions, or specific design instructions..." class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-blue-600 focus:ring-2 focus:ring-blue-100 outline-none text-sm transition-all"></textarea>
+                        </div>
+
+                        <!-- Submit Options Buttons -->
+                        <div class="pt-2 flex flex-col sm:flex-row gap-3">
+                            <button type="submit" class="flex-1 py-4 rounded-xl gradient-blue text-white font-bold text-sm shadow-lg shadow-blue-500/30 hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200 flex items-center justify-center gap-2">
+                                <i class="fab fa-whatsapp text-lg"></i> Send Order via WhatsApp
+                            </button>
+                            <button type="button" onclick="sendViaEmail()" class="px-6 py-4 rounded-xl bg-slate-100 text-slate-800 font-bold text-sm hover:bg-slate-200 transition-colors flex items-center justify-center gap-2">
+                                <i class="fas fa-envelope text-blue-600"></i> Direct Email
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Direct Contact & Footer Section -->
+    <footer id="contact" class="bg-slate-950 text-slate-400 pt-16 pb-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+                
+                <!-- Col 1: Studio Identity -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl gradient-blue flex items-center justify-center text-white font-extrabold text-lg shadow-md">
+                            AS
+                        </div>
+                        <span class="font-bold text-xl text-white tracking-tight">AS Digital Graphics</span>
+                    </div>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        Your trusted creative studio for digital graphics, custom banners, posters, editing, and thumbnail designs.
+                    </p>
+                    <div class="flex items-center gap-3 pt-2">
+                        <a href="tel:9277138739" class="w-9 h-9 rounded-full bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white flex items-center justify-center text-xs transition-colors" title="Call">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                        <a href="mailto:asdigitalgraphics6@gmail.com" class="w-9 h-9 rounded-full bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white flex items-center justify-center text-xs transition-colors" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://wa.me/919277138739" target="_blank" class="w-9 h-9 rounded-full bg-slate-900 border border-slate-800 hover:border-green-500 hover:text-green-400 flex items-center justify-center text-xs transition-colors" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Col 2: Founders Leadership -->
+                <div>
+                    <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-4 border-l-2 border-blue-500 pl-3">Leadership</h4>
+                    <ul class="space-y-3 text-xs">
+                        <li class="p-2.5 rounded-lg bg-slate-900/80 border border-slate-800/80">
+                            <p class="text-white font-bold">Amrit Singh</p>
+                            <p class="text-blue-400 text-[11px]">Founder & Creative Lead</p>
+                        </li>
+                        <li class="p-2.5 rounded-lg bg-slate-900/80 border border-slate-800/80">
+                            <p class="text-white font-bold">Ayush Bhardwaj</p>
+                            <p class="text-blue-400 text-[11px]">Co-Founder & Operations Lead</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Quick Navigation -->
+                <div>
+                    <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-4 border-l-2 border-blue-500 pl-3">Quick Links</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#home" class="hover:text-white transition-colors">Home Page</a></li>
+                        <li><a href="#about" class="hover:text-white transition-colors">About AS Digital Graphics</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors">Services Offered</a></li>
+                        <li><a href="#gallery" class="hover:text-white transition-colors">Portfolio & Gallery</a></li>
+                        <li><a href="#booking" class="hover:text-white transition-colors">Book Order Now</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Contact Details -->
+                <div>
+                    <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-4 border-l-2 border-blue-500 pl-3">Direct Contact</h4>
+                    <ul class="space-y-3 text-xs">
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-phone text-blue-500"></i>
+                            <div>
+                                <p class="text-[10px] text-slate-500 uppercase font-semibold">Call / WhatsApp</p>
+                                <a href="tel:9277138739" class="text-slate-200 font-semibold hover:text-blue-400">+91 9277138739</a>
+                            </div>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-envelope text-blue-500"></i>
+                            <div>
+                                <p class="text-[10px] text-slate-500 uppercase font-semibold">Official Email</p>
+                                <a href="mailto:asdigitalgraphics6@gmail.com" class="text-slate-200 font-semibold hover:text-blue-400 break-all">asdigitalgraphics6@gmail.com</a>
+                            </div>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-clock text-blue-500"></i>
+                            <div>
+                                <p class="text-[10px] text-slate-500 uppercase font-semibold">Working Hours</p>
+                                <p class="text-slate-300">Mon - Sat: 9:00 AM - 9:00 PM</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="pt-8 border-t border-slate-900 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <p>© <span id="year"></span> AS Digital Graphics. All rights reserved.</p>
+                <p>Designed for Amrit Singh & Ayush Bhardwaj</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal for Gallery Images -->
+    <div id="lightbox" class="fixed inset-0 z-50 bg-slate-950/90 backdrop-blur-md hidden items-center justify-center p-4">
+        <div class="relative max-w-4xl w-full bg-slate-900 rounded-2xl overflow-hidden shadow-2xl border border-slate-800">
+            <button onclick="closeLightbox()" class="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-black/60 text-white hover:bg-red-600 transition-colors flex items-center justify-center">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="p-2">
+                <img id="lightbox-img" src="" alt="Enlarged graphic" class="w-full max-h-[80vh] object-contain rounded-xl">
+            </div>
+            <div class="p-4 bg-slate-900 border-t border-slate-800 text-center">
+                <h3 id="lightbox-caption" class="text-lg font-bold text-white"></h3>
+                <p class="text-xs text-slate-400 mt-1">AS Digital Graphics Portfolio Sample</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Application Logic -->
+    <script>
+
+        // Subtle entrance motion for major content blocks (respects reduced-motion settings).
+        if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
+            const revealTargets = document.querySelectorAll('#about .glass-card, #services .grid > div, #gallery .gallery-item');
+            revealTargets.forEach((el) => el.classList.add('reveal-ready'));
+            const revealObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.12 });
+            revealTargets.forEach((el) => revealObserver.observe(el));
+        }
+
+        // Set Year in Footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu on link click
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Quick Select Service from Cards
+        function quickSelectService(serviceName) {
+            const selectEl = document.getElementById('cust-service');
+            if(selectEl) {
+                selectEl.value = serviceName;
+            }
+            const bookingSection = document.getElementById('booking');
+            if(bookingSection) {
+                bookingSection.scrollIntoView({ behavior: 'smooth' });
+            }
+            showToast(`Selected: ${serviceName}. Please complete your details.`);
+        }
+
+        // Gallery Filter Logic
+        function filterGallery(category) {
+            const items = document.querySelectorAll('.gallery-item');
+            const buttons = document.querySelectorAll('.gallery-tab-btn');
+
+            buttons.forEach(btn => {
+                btn.classList.remove('bg-blue-600', 'text-white', 'shadow-md');
+                btn.classList.add('bg-slate-100', 'text-slate-600');
+            });
+
+            event.currentTarget.classList.remove('bg-slate-100', 'text-slate-600');
+            event.currentTarget.classList.add('bg-blue-600', 'text-white', 'shadow-md');
+
+            items.forEach(item => {
+                if (category === 'all' || item.classList.contains(category)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        // Lightbox Modal Functions
+        function openLightbox(imgSrc, caption) {
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            const lightboxCaption = document.getElementById('lightbox-caption');
+
+            lightboxImg.src = imgSrc;
+            lightboxCaption.textContent = caption;
+            lightbox.classList.remove('hidden');
+            lightbox.classList.add('flex');
+        }
+
+        function closeLightbox() {
+            const lightbox = document.getElementById('lightbox');
+            lightbox.classList.add('hidden');
+            lightbox.classList.remove('flex');
+        }
+
+        // Close Lightbox on backdrop click
+        document.getElementById('lightbox').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeLightbox();
+            }
+        });
+
+        // WhatsApp Order Submission Handler
+        function handleOrderSubmit(e) {
+            e.preventDefault();
+
+            const name = document.getElementById('cust-name').value;
+            const phone = document.getElementById('cust-phone').value;
+            const email = document.getElementById('cust-email').value || 'N/A';
+            const service = document.getElementById('cust-service').value;
+            const deadline = document.getElementById('cust-deadline').value;
+            const pref = document.getElementById('cust-contact-pref').value;
+            const brief = document.getElementById('cust-brief').value;
+
+            const studioPhone = "919277138739"; // WhatsApp target
+
+            const text = `*New Booking Request - AS Digital Graphics*%0A%0A` +
+                         `*Client Name:* ${encodeURIComponent(name)}%0A` +
+                         `*Phone:* ${encodeURIComponent(phone)}%0A` +
+                         `*Email:* ${encodeURIComponent(email)}%0A` +
+                         `*Service Needed:* ${encodeURIComponent(service)}%0A` +
+                         `*Deadline:* ${encodeURIComponent(deadline)}%0A` +
+                         `*Contact Preference:* ${encodeURIComponent(pref)}%0A` +
+                         `*Project Brief:* ${encodeURIComponent(brief)}%0A%0A` +
+                         `_Sent via AS Digital Graphics Studio Website_`;
+
+            showToast("Redirecting to WhatsApp with your order details...");
+            
+            setTimeout(() => {
+                window.open(`https://wa.me/${studioPhone}?text=${text}`, '_blank');
+            }, 800);
+        }
+
+        // Direct Email Sender
+        function sendViaEmail() {
+            const name = document.getElementById('cust-name').value;
+            const phone = document.getElementById('cust-phone').value;
+            const service = document.getElementById('cust-service').value;
+            const brief = document.getElementById('cust-brief').value;
+
+            if(!name || !phone || !service || !brief) {
+                showToast("Please fill out Name, Phone, Service, and Brief before sending email.", true);
+                return;
+            }
+
+            const mailto = `mailto:asdigitalgraphics6@gmail.com?subject=New Order: ${encodeURIComponent(service)} - ${encodeURIComponent(name)}&body=Client Name: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0AService: ${encodeURIComponent(service)}%0ABrief: ${encodeURIComponent(brief)}`;
+            
+            showToast("Opening Email Client...");
+            window.location.href = mailto;
+        }
+
+        // Toast Notification Function
+        function showToast(message, isError = false) {
+            const container = document.getElementById('toast-container');
+            const toast = document.createElement('div');
+            
+            toast.className = `pointer-events-auto px-5 py-3 rounded-xl shadow-2xl text-xs font-semibold text-white flex items-center gap-3 transition-all transform translate-y-5 opacity-0 ${isError ? 'bg-red-600' : 'bg-slate-900 border border-blue-500'}`;
+            toast.innerHTML = `
+                <i class="${isError ? 'fas fa-exclamation-circle text-red-300' : 'fas fa-check-circle text-blue-400'} text-base"></i>
+                <span>${message}</span>
+            `;
+
+            container.appendChild(toast);
+
+            // Animate In
+            setTimeout(() => {
+                toast.classList.remove('translate-y-5', 'opacity-0');
+            }, 10);
+
+            // Animate Out & Remove
+            setTimeout(() => {
+                toast.classList.add('translate-y-5', 'opacity-0');
+                setTimeout(() => {
+                    toast.remove();
+                }, 300);
+            }, 3500);
+        }
+    </script>
+</body>
+</html>
